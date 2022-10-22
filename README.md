@@ -1,5 +1,7 @@
 # Vue 3 + TypeScript + Vite
 
+整合了基本依赖（vue-router、pinia、axios、element-plus）的骨架，便于个人快速开发项目。
+
 ## 基本指令
 
 ```
