@@ -2,7 +2,7 @@
   <div class="index">
     <span>当前数值{{ countComputed }}</span>
     <br />
-    <span>双倍数值{{ doubleCount }}</span>
+    <span class="text">双倍数值{{ doubleCount }}</span>
     <br />
     <el-button type="primary" size="default" @click="countStore.countAdd">
       +1
@@ -22,4 +22,4 @@ const countComputed = computed(() => countStore.count);
 // 通过 storeToRefs api 结构
 const { doubleCount } = storeToRefs(countStore);
 </script>
-<style scoped></style>
+<style scoped lang="scss"></style>
